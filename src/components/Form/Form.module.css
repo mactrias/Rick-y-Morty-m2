@@ -1,0 +1,42 @@
+.container form {
+  -moz-box-shadow: 24px 24px 41px -18px rgba(63, 102, 63, 1);
+  box-shadow: 24px 24px 41px -18px rgba(63, 102, 63, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn {
+  background: #c334d9;
+  background-image: -webkit-linear-gradient(top, #c334d9, #6ab82b);
+  background-image: -moz-linear-gradient(top, #c334d9, #6ab82b);
+  background-image: -ms-linear-gradient(top, #c334d9, #6ab82b);
+  background-image: -o-linear-gradient(top, #c334d9, #6ab82b);
+  background-image: linear-gradient(to bottom, #c334d9, #6ab82b);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Georgia;
+  color: #262326;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3cfc3c;
+  background-image: -webkit-linear-gradient(top, #3cfc3c, #d134d9);
+  background-image: -moz-linear-gradient(top, #3cfc3c, #d134d9);
+  background-image: -ms-linear-gradient(top, #3cfc3c, #d134d9);
+  background-image: -o-linear-gradient(top, #3cfc3c, #d134d9);
+  background-image: linear-gradient(to bottom, #3cfc3c, #d134d9);
+  text-decoration: none;
+}

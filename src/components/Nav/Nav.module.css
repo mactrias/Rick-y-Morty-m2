@@ -1,0 +1,50 @@
+.container {
+  background-color: rgba(68, 118, 83, 0.382);
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.container ul li {
+  margin: 0 20px;
+  display: inline-block; /* Mantiene los elementos de la lista en línea */
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: rgb(85, 10, 85);
+  font-size: 1.2rem;
+}
+
+.container button {
+  height: 33px;
+  background-color: rgba(81, 40, 79, 0.56);
+  border-radius: 5px;
+  color: rgb(85, 10, 85);
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+
+.container img {
+  padding-left: 10px;
+  height: 100px;
+}
